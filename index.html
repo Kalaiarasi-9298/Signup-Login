@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airslate Website</title>
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        *{
+            font-family: serif;
+        }
+        /* navigation section at the top */
+        .nav-bar{
+            height: 30px;
+            display: flex;
+            padding: 10px;
+            gap: 10px;
+            font-family: serif;
+            font-size: large;
+            opacity: 0.6;
+            }
+
+        .front-sec{
+            display: flex;
+            gap: 30px;
+
+        }
+        button{
+            width: 110px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+        .first-btn{
+            background-color: white;
+            margin-left: auto;
+
+        }
+        .second-btn{
+            color: white;
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #item1{
+            font-size: xx-large;
+            margin-top: 13px;
+            font-weight: bold;
+            align-items: center;
+        }
+        select{
+            font-size: large;
+            border: none;
+            outline: none;
+            font-family: serif;
+            margin-top: 13px;
+            
+            
+        }
+        /* header section */
+        .header{
+            font-family: serif;
+            background-color: black;
+            color: white;
+            
+        }
+        h1{
+            padding-top: 20px;
+        }
+        .same-line{
+            display: flex;
+            
+        }
+        .head-p1{
+            opacity: 0.7;
+        }
+        .head-p2{
+            margin-left: auto;
+        }
+        /* block styling */
+        .block{
+            display: flex;
+            gap: 20px;
+            background-color: black;
+            color: white;
+            height: 70%;
+            justify-content: center;
+
+        }
+      .part1{
+        background-image: url("https://techfundingnews.com/wp-content/uploads/2022/06/AirSlate-2-founders.jpg")
+    
+
+      }  
+      .part1, .part2, .part3{
+        width: 400px;
+        padding: 0px;
+        /* display: grid; */
+        gap: 10px;
+        border: 1px solid lightslategray;
+        border-bottom: 1px solid lightslategray;
+
+      }
+      img{
+        position: relative;
+        padding: 20px;
+
+      }
+      .part2 >.image2{
+        border-radius: 50%;
+      }
+      .logo2, .logo3{
+        float: left;
+      }
+        article{
+            margin-top: auto;
+            padding-top: 80px;
+            float: end;
+        }
+        .part2{
+            display: grid;
+        }
+        .def1, .def2{
+            margin-top: -20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <div class="front-sec">
+                <a href="#"><p id="item1">airSlate</p></a>
+                <a href="#"><p>Products</p></a>
+                
+
+                <select name="Partners" id="Partners">
+                    <option value="Partners"><a href="#"><p>Partners</p></a></option>
+
+
+                </select>
+                <a href="#"><p>API</p></a>
+                <a href="#"><p>Academy</p></a>
+                <a href="#"><p>Careers</p></a>
+            </div>
+            <button class="first-btn">Log in</button>
+            <button class="second-btn">Book a demo</button>
+
+        </div>
+        <div class="header">
+            <h1>We help business succeed</h1>
+            <div class="same-line">
+                <p class="head-p1">Small companies to Fortune 500 giants digitize, automate <br/>
+                    and scale thei business with airSlate.</p>
+                <p class="head-p2">See all Stories <span  class="material-icons" style="font-size: 20px;" >
+                    arrow_forward
+                </span></p>
+            </div>
+        </div>
+        <div class="block">
+            
+                <div class="part1">
+                    <img class="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8I7T-NJyIsYG_zY_Ck6rzDe37ph3E2aRPnA&s" alt="logo" height="50px" width="50px">
+                    <h1>500+</h1>
+                    <p class="one" >weekly requests <br>automatically processed </p>
+
+                </div>
+                <div class="part2">
+                    <img class="image2" src="https://icon2.cleanpng.com/20181025/iyq/kisspng-bryant-stratton-college-logo-brand-organization-college-connection-1713926689766.webp" alt="logo-2" height="100px" width="100px">
+                    <p class="two">"All of our filing cabinets are now empty. <br>
+                    Stopping the printing and filing process <br>
+                     has probably saved us at least one salary each year."</p>
+                    <article> 
+                     <img class="logo2" src="https://blog.signnow.com/wp-content/uploads/2023/05/Bryant-Stratton-College-customer-story-featured-image-300x158.png" alt="image1" width="50px" height="50px">
+                     <h3 class="name1">Doreen Justinger</h3>
+                     <h4 class="def1" style="opacity: 0.7;">Academic Affairs Analyst at CGU</h4>
+                    </article>
+
+                </div>
+                <div class="part3">
+                    <img class="image3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStJZDTQ40uN4HFBJbkx-YekZ524jVHQK3qKg&s" alt="logo-3" height="150px" width="50px">
+                    <h2>GREEN BRICK</h2>
+                    <h4>PARTNERS</h4>
+                    <p class="three">"Using pdfFiller has saved us 110 hours <br>
+                    per year at $35.00 per hour, and that <br>
+                    was just the begining of the savings."</p>
+                    <article>
+                    <img class="logo3" src="https://static.pdffiller.com/blogpost/img/wp-green-brick/hampton.jpg" alt="image-2"  width="50px" height="50px">
+                    <h3 class="name2">John Hampton</h3>
+                    <h4 class="def2" style="opacity: 0.7;" >Lawyer at Green Brick Title, LLC</h4>
+                </article>
+
+                </div>
+                
+        
+
+        </div>
+    
+    
+</body>
+</html>
